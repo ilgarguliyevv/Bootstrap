@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#myheader{
+    background-color: black;
+}
+.main{
+    color: white;
+}
+.container{
+    height: 400px;
+}
+.about{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    list-style: none;
+    color: white;
+}
+
+.col-6{
+    margin-top: 100px;
+    
+}
+.textmain{
+    color: white;
+}
+.textdirect{
+    margin: 20 0px;
+    color: white;
+}
+
