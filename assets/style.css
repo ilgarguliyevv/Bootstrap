@@ -8,8 +8,10 @@
   background-color: rgba(var(--bs-dark-rgb)) !important;
 }
 .main {
-  color: white;
-  margin: 10px auto;
+  color: #fff;
+  margin: 15px auto;
+  font-size: 1.25rem;
+  cursor: pointer;
 }
 .container {
   height: 500px;
@@ -21,15 +23,19 @@
   list-style: none;
   color: white;
   margin: 15px auto;
+  cursor: pointer;
 }
-
+.gray {
+  color: gray;
+}
 .col-6 {
   margin-top: 100px;
 }
 .get {
   width: 150px;
   height: 48px;
-  font-weight: bold;
+  margin-top: 10px;
+  font-size: 1.25rem;
 }
 .more {
   width: 150px;
@@ -37,6 +43,8 @@
   border-radius: 5px;
   border: 1px solid white;
   margin-left: 25px;
+  margin-top: 10px;
+  font-size: 1.25rem;
 }
 .textmain {
   color: white;
@@ -44,10 +52,12 @@
   font-weight: bolder;
 }
 .textdirect {
+  width: 588px;
   margin: 20 0px;
   color: white;
   opacity: 50%;
   font-size: 1.25rem;
+  font-weight: 300;
 }
 .title {
   i {
